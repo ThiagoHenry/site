@@ -1,0 +1,71 @@
+nav{
+  z-index: 999 !important;
+  height: 4.5rem;
+}
+
+.banner{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.wpp-icon{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  text-align: right;
+  width: auto;
+}
+.wpp-icon img{
+  width: 65px;
+}
+
+/* --- CLASSES --- */
+
+.opacity-x0-7{
+    opacity: .7 !important;
+    -webkit-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -o-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.opacity-x0-7.transition{
+    opacity: 1 !important;
+}
+
+.opacity-x0-8{
+    opacity: .8 !important;
+}
+.opacity-x1{
+    opacity: 1 !important;
+}
+
+
+.bg-black{
+    background: black;
+}
+
+.centered-x1{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#header {
+    background: red;
+    padding: 10px 0;
+    position: relative;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+    left:0;
+}
+
+#header.transition {
+    background: green;
+    left: 50px;
+}
